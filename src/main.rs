@@ -2,8 +2,7 @@ use std::io;
 
 fn main() {
     println!(
-        "Enter 1 to convert fahrenheit to celsius \n
-         Enter 2 to convert celsius to fahrenheit"
+        "Enter 1 to convert fahrenheit to celsius \nEnter 2 to convert celsius to fahrenheit"
     );
     let mut option = String::new();
     io::stdin()
